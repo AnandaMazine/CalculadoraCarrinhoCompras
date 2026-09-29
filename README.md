@@ -18,6 +18,3 @@ Aplicativo Android desenvolvido utilizando Jetpack Compose, estruturado com arqu
 
 ### Relatório no Logcat
 ![Relatorio Logcat](Logcat.png)
-
-## Demonstração em Vídeo
-* [Link do Vídeo de Apresentação (YouTube - Não Listado)](insira-o-link-aqui)
