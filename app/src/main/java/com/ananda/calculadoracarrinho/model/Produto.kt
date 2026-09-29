@@ -1,5 +1,7 @@
 package com.ananda.calculadoracarrinho.model
 
+import com.ananda.calculadoracarrinho.domain.calcularValorFinalProduto
+
 data class Produto(
     val nome: String,
     val precoUnitario: Double,
@@ -7,7 +9,6 @@ data class Produto(
     val descontoPercentual: Double = 0.0
 ) : Pagável {
     override fun calcularValorTotal(): Double {
-        val desconto = precoUnitario * (descontoPercentual / 100.0)
-        return precoUnitario - desconto
+        return calcularValorFinalProduto(this)
     }
 }

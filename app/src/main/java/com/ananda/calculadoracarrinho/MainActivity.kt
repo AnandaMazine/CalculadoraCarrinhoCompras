@@ -10,15 +10,15 @@ import androidx.compose.ui.Modifier
 import com.ananda.calculadoracarrinho.data.itensCarrinhoIniciais
 import com.ananda.calculadoracarrinho.domain.gerarRelatorioLogcat
 import com.ananda.calculadoracarrinho.ui.TelaCarrinho
+import com.ananda.calculadoracarrinho.ui.theme.CalculadoraCarrinhoTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         gerarRelatorioLogcat(itensCarrinhoIniciais)
 
         setContent {
-            MaterialTheme {
+            CalculadoraCarrinhoTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
