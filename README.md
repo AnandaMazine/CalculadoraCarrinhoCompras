@@ -14,10 +14,10 @@ Aplicativo Android desenvolvido utilizando Jetpack Compose, estruturado com arqu
 ## Capturas de Tela
 
 ### Interface do Aplicativo (Emulador)
-*(Insira aqui a captura de tela da interface do aplicativo rodando no emulador)*
+![Interface do App](emulador.png)
 
 ### Relatório no Logcat
-*(Insira aqui a captura de tela do Logcat filtrado com o relatório de produtos com desconto)*
+![Relatorio Logcat](Logcat.png)
 
 ## Demonstração em Vídeo
 * [Link do Vídeo de Apresentação (YouTube - Não Listado)](insira-o-link-aqui)
